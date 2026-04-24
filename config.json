@@ -1,0 +1,18 @@
+{
+    "input_image": "assets/img/inputs/aeroplane.jpg",
+    "output_image": "assets/img/outputs/output.png",
+
+    "model": {
+        "mode": "fast",
+        "jit": true,
+        "device": "cpu",
+        "ckpt": "~/latest.pth",
+        "resize": "dynamic"
+    },
+
+    "process": {
+        "type": "rgba",
+        "threshold": 0.5,
+        "reverse": false
+    }
+}
